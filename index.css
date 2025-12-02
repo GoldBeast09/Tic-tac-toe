@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 12, 143, 0.9);
     height: 100vh;
 }
 
@@ -20,19 +20,24 @@ body{
 }
 
 
-.container{
+.Rutenett{
     display: grid;
     grid-template-columns:repeat(3, 300px) ;
     grid-template-rows: repeat(3, 300px);
     gap: 20px;
     justify-content: center;
-    margin-top: 150px;
+    background-color: black;
+    width: 940px;
+    margin: 150px auto 0 auto;
+
 }
 
-.container div{
-    background-color: rgba(0, 0, 0, 0.05);
+.Rutenett div{
+    background-color: rgba(0, 12, 143, 0.9);
     color:#ffffff;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     text-align: center;
 }   
